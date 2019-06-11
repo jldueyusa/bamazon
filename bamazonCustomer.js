@@ -26,4 +26,14 @@ var display = function() {
         console.log("Find Your Product Below");
         console.log("");
     });
-  
+    //table variable connect to cli table
+    var table = new Table({
+        head: ["item_id", "product_name","price"],
+        colWidths: [12, 50, 8],
+        colAligns: ["center", "left", "right"],
+        style: {
+            head: ["aqua"],
+            compact: true
+        }
+    });
+};
