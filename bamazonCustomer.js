@@ -36,4 +36,8 @@ var display = function() {
             compact: true
         }
     });
+    //create for loop
+    for (var = i; i < res.length; i++){
+        table.push([res[i].item_id, res[i].product_name, res[i].price]);
+    }
 };
