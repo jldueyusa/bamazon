@@ -1,2 +1,2 @@
-# bamazon
-starting week 13 homework over.
+### Welcome to Bamazon ![bam](https://github.com/jldueyusa/bamazon/edit/master/assets/bam.png)
+
