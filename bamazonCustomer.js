@@ -33,6 +33,7 @@ function askQuestions() {
             type: "input",
             name: "prodId"
         },
+        
         {
             message: "how many of this item would you like to purchase",
             type: "input",
@@ -45,6 +46,7 @@ function askQuestions() {
         withdrawProd(prodId, prodQty)
     });
 }
+
 
 function withdrawProd(prodId, prodQty) {
   connection.query('SELECT * FROM products', function (error, res) {
@@ -61,7 +63,7 @@ function withdrawProd(prodId, prodQty) {
         orderComplete(prod, prodId, prodQty)
         connection.end()
       }else{
-        console.log("sorry the order has been cancled, there was insuffecent stock of this purchase")
+        console.log("sorry order canceled, insufficient stock")
         connection.end()
       }
   })
