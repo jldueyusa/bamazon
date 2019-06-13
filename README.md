@@ -1,5 +1,4 @@
-![bam](https://github.com/jldueyusa/bamazon/blob/master/assets/bam.png)
-# Welcome to Bamazon 
+# Welcome to Bamazon <img src="https://github.com/jldueyusa/bamazon/blob/master/assets/bam.png" width="150" height="100">
 
 Bamazon is like Amazon but a little different. This application implements a simple command line based storefront using the npm inquirer package and the MySQL database backend together with the npm mysql package. The app will take in orders from customers and deplete stock from the store's inventory. As a future enhancement, there is an option to act as a manager at Bamazon where you are able to check the products Bamazon has for sale as well as add products and inventory. This function is currently under contruction and only partially works. 
 
