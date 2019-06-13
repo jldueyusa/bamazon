@@ -55,4 +55,12 @@ The next set of instructions will be used for the bamazonManager.js file.
 
 ![nodeManager1](https://github.com/jldueyusa/bamazon/blob/master/assets/nodeManager1.png)
 
+# Tools and Applications
+- Javascript
+- Node.js
+- Node packages
+  - mysql
+  - inquirer
+- MySQL
+- MySQL Workbench
 
