@@ -38,3 +38,25 @@ function askQuestions() {
     }
   });
 }
+
+function viewProducts () {
+    connection.query('SELECT * FROM products', function (error, res) {
+      if (error) throw error;
+      // console.log(res);
+      res.forEach(row => {
+        console.log(`Id: ${row.item_id} Name: ${row.product_name} Price: ${row.price} Quantity: ${row.stock_quantity}\n`)
+      });
+      connection.end()
+    })
+  }
+  
+  function viewLowInventory() {
+    connection.query('SELECT * FROM products WHERE stock_quantity < 5', function (error, res) {
+      if (error) throw error;
+      // console.log(res);
+      res.forEach(row => {
+        console.log(`Id: ${row.item_id} Name: ${row.product_name} Price: ${row.price} Quantity: ${row.stock_quantity}\n`)
+      });
+      connection.end()
+    })
+  }
