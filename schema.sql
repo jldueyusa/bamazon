@@ -11,7 +11,7 @@ CREATE TABLE products (
   stock_quantity INT,
   UNIQUE (item_id),
   PRIMARY KEY (position)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) 
 
 SELECT * FROM products;
 
