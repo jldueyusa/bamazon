@@ -4,6 +4,10 @@ Bamazon is like Amazon but a little different. This application implements a sim
 
 ## Instructions
 
+[Click Here](https://drive.google.com/file/d/1fLars1sHMLV6c7LrcvqNVS7FK0HzNKWD/view) to view a play by play video of this tool in action.
+
+### Here is how you use this app
+
 You must first install MySQL and MySQL Workbench in order to populate the database of products for Bamazon. Once those are installed and ready to go, open the bamazon folder and navigate to the schema.sql file. This file contains the code to to copy and paste into your MySQL application. Once this task is completed, you will have the database set up with the products that Bamazon has to offer.
 
 ![SQL DB List](https://github.com/jldueyusa/bamazon/blob/master/assets/nodeCustomerSQL.png)
